@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    padding: 50px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    /* border-radius: 10px; */
+    rotate: 10deg;
+    animation-name: animation01;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes animation01{
+      from{background-color: aqua}
+      to  {background-color: blue;}
+}
+@keyframes animation01{
+    from{
+        left: 0px;
+
+    }
+    to{
+        left: 50px;
+    }
+
+}
+
+
